@@ -1,0 +1,426 @@
+@charset "utf-8";
+
+html{
+	font: 12px "宋体";
+}
+
+a{
+	color: #000;
+}
+
+/*top*/
+.top{
+	background-color: #F7F7F7;
+	height: 26px;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.top_page{
+	width: 970px;
+	height: 26px;
+	margin: 0 auto;/*居中*/
+}
+
+.top_page_l{
+	/*居中_行高设置和父容器高度一样*/
+	line-height: 26px;
+}
+
+
+.top_page_r ul li{
+	float: left;
+	line-height: 26px;
+	padding-right: 10px;
+}
+
+.top_page_r ul li s {
+	width: 14px;
+	height: 12px;
+	background: url(../images/sprite.png);
+	display: inline-block;
+	/*?*/
+	vertical-align: middle;
+}
+/*top*/
+
+/*logo*/
+.logo{
+	width: 970px;
+	height: 98px;
+	margin: 0 auto;
+	
+}
+
+.logo_l{
+	width: 200px;
+	height: 55px;
+	margin:24px 0px 19px 9px;
+	background: url(../images/sprite.png) -20px 0;
+	text-indent: -1000em;
+	/*缩进*/
+}
+
+.logo_r{
+	width: 530px;
+	height: 42px;
+	border: 1px solid #C9C9C9;
+	margin-top: 29px;
+}
+
+.logo_r_searche{
+	width: 418px;
+	height: 28px;
+	border: 1px solid #C9C9C9;
+}
+
+.logo_r_btn{
+	width: 99px;
+	height: 30px;
+	background-color: #2F70D0;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.logo_r_content{
+	margin: 5px 5px 5px 5px;
+}
+
+/*logo*/
+
+/*nav*/
+.nav{
+	width: 970px;
+	height: 27px;
+	margin: 0 auto;
+	border-bottom: 2px solid #0266A3;
+}
+
+.nav ul li{
+	float: left;
+	line-height: 27px;
+	padding: 0 15px 0 15px;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+
+.nav ul li:hover{
+	background-color: #0266A3;
+}
+
+.nav ul li:hover a{
+	color: white;
+}
+
+.nav ul li a{
+	color: #0266A3;
+} 
+/*nav*/
+
+/*banner*/
+.banner{
+	width: 970px;
+	height: 210px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.subnav{
+	width: 200px;
+	height: 210px;
+	background-color: #EBF0F6;
+}
+
+.subnav h1{
+	padding-left: 20px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	background-color: #0266A3;
+}
+
+.subnav ul li{
+	font-size: 15px;
+	padding-top: 11px;
+	background-color: #EBF0F6;
+}
+
+.subnav ul li a{
+	padding-left: 15px;
+}
+
+.subnav ul li s {
+	height: 15px;
+	width: 22px;
+	display: inline-block;
+	margin-left: 9px;
+	background: url(../images/sprite.png) -225px 0;
+	vertical-align: middle;
+}
+.banner .as{
+	width: 520px;
+	height: 210px;
+	background-color: yellow;
+	margin: 0 9px 0 11px;
+	
+}
+
+.banner .message{
+	width: 230px;
+}
+
+.message div{
+	width: 230px;
+	height: 95px;
+}
+
+.message_top{
+	margin-bottom: 20px;
+	background-color: #F7FAFF;
+	border: 1px solid #E0E6F0;
+}
+
+.message_top .fw{
+	font-size: 13px;
+	font-weight: bold;
+	margin: 9px 0 0 20px;
+}
+
+.message_top s{
+	display: inline-block;
+	width: 40px;
+	height: 41px;
+	background: url(../images/sprite.png) -255px 0;
+	margin: 20px 0 0 10px;
+}
+.message_top .cheap{
+	margin: 25px 0 0 10px;	
+}
+
+.cheap a{
+	font-weight: bold;
+}
+.message_bottom{
+	height: 92px;
+	margin-bottom: 20px;
+	background-color: #F7FAFF;	
+}
+
+.message_bottom .findMessage{
+	font-size: 14px;
+	text-align: center;
+	padding-top: 11px;
+	
+}
+
+.message_bottom .phone{
+	font-size: 16px;
+	height: 19px;
+	text-align: center;
+	font-weight: bold;
+	color: #6AB2E6;
+	margin-top: 11px;
+	
+}
+
+.message_bottom .btn{
+	width: 81px;
+	height: 23px;	
+	background: url(../images/sprite.png) -320px 0;
+	margin-top: 7px;
+	margin-left: 75px;
+	text-align: center;
+}
+
+.phone s{
+	display: inline-block;
+	width: 15px;
+	height: 19px;
+	margin-right: 7px;
+	background: url(../images/sprite.png) -300px 0;
+	vertical-align: middle;
+}
+
+/*banner*/
+
+/*建筑材料*/
+.material{
+	width: 950px;
+	height: 34px;
+	margin: 0 auto;
+	border-top: 2px solid #C3D7E4;
+	margin-top: 14px;
+	background: #ECF1F7;
+	line-height: 34px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+/*建筑材料*/
+
+
+/*具体信息*/
+.product{
+	width: 970px;
+	height: 345px;
+	margin: 0 auto;
+	margin-top: 12px;
+}
+
+.product .product_left{
+	width: 730px;
+	height: 345px;
+	border: 1px solid #D8D8D8;
+}
+.product_left_bottom{
+	width: 712px;
+	height: 172px;
+	padding: 0 0px 0 26px;
+}
+
+.product_left_line{
+	margin: 0 4px 13px 4px;
+	border: 1px solid #EEEEEE;
+}
+
+.product_left_top{
+	width: 712px;
+	height: 160px;
+	padding: 17px 0 0 26px;
+}
+.product .p_l_t_1{
+	width: 350px;
+	height:146px;
+}
+
+.product .buy{
+	width: 99px;
+	height: 143px;
+}
+
+.product .buy .img{
+	height: 100px;
+	border: 1px solid #CACACA;
+	
+}
+.product .buy .img s {
+	display: inline-block;
+	width: 90px;
+	height: 62px;
+	background: url(../images/sprite.png) -405px 0;
+	margin: 10px 4px 0 3px;
+}
+.product .buy .btn{
+	width: 99px;
+	height: 26px;
+	background: #0A84E3;
+	color: white;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.product .explain{
+	width: 250px;
+	height: 143px;
+}
+
+.product .explain .goodWife{
+	font-size: 14px;
+	padding: 10px 0 0 10px;
+}
+.product .explain .auto{
+	color: #863E01;
+	padding: 13px 0 0 15px;
+}
+.product .explain .money{
+	padding: 21px 0 0 11px;
+	font-size: 15px;
+}
+
+.product .explain .money span{
+	
+	color: red;
+}
+
+.product .explain .money s{
+	text-decoration: line-through;
+}
+.product .explain .buyed{
+	font-size: 14px;
+	padding: 20px 0 0 11px;
+}
+
+
+.product .product_right{
+	width: 228px;
+	height: 345px;
+	border: 1px solid #DDDDDD;
+}
+.product_right h2{
+	height: 28px;
+	background: #FBFBFB;
+	line-height: 28px;
+	padding-left: 15px;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.product_right ul{
+	padding-top: 11px;
+}
+.product_right ul li{
+	font-size: 13px;
+	line-height: 23px;
+}
+
+.product_right ul li a{
+	padding-left: 11px;
+}
+.product_right ul li s {
+	height: 4px;
+	width: 4px;
+	display: inline-block;
+	margin-left: 9px;
+	background: url(../images/sprite.png) -225px -22px;
+	vertical-align: middle;
+}
+/*具体信息*/
+
+.link{
+	width: 970px;
+	height: 103px;
+	margin: 0 auto;
+	margin-top: 11px;
+	border-top: 1px solid #DDDDDD;
+	font-size: 14px;
+}
+
+.link_p1{
+	margin-top: 30px;
+	margin-left: 5px;
+}
+.link_p1 span{
+	color: #999999;
+}
+.link_p2{
+	margin-left: 74px;
+	margin-top: 18px;
+}
+
+.aboulMe{
+	width: 970px;
+	height: 90px;
+	margin: 0 auto;
+}
+
+.aboulMe p {
+	text-align: center;
+	margin-top: 14px;
+}
+
+.aboulMe .aboulMe_line{
+	width: 970px;
+	margin: 0 auto;
+	margin: 0 4px 13px 4px;
+	border: 1px solid #0A7EC3;
+}
